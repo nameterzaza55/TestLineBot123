@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('LINE_MESSAGE_CHANNEL_ID','1653962591');
-define('LINE_MESSAGE_CHANNEL_SECRET','aafcaae549f070c71db827dc219d235b');
-define('LINE_MESSAGE_ACCESS_TOKEN','ZJyN3RKoXK1JDbyHmdFYFFF2i+XiBBsrhHxy8jY0XhG6SE4abfskX25CpNJruVPHEaoBtRMTqYkWz9M4ZM2/ZIeQXa+H7rlzbjgrMmMWp9lhTSznAboFTNvVXNSAf8wfXkg3CHy1IFLzWF0SzjP2yAdB04t89/1O/w1cDnyilFU=');
+define('LINE_MESSAGE_CHANNEL_ID','1653960063');
+define('LINE_MESSAGE_CHANNEL_SECRET','ec3978d7299540e544ff5fa487804fc2');
+define('LINE_MESSAGE_ACCESS_TOKEN','sBXNmiT/eVI9C2js6vSG5i9CVJbbsuWPBKDuaGlFF4n3CjCWtF5EvY/zQzdBLydfv6I2dr1eYjcUYmSJVKNj7QrUSrxpnbbR0MaKcYTN9choWxvLUJu60gvz/hbmh627jxTFDQNkVRUIlUoouN5PgQdB04t89/1O/w1cDnyilFU=');
 
 include 'vendor/autoload.php';
 
