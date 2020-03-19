@@ -2124,7 +2124,7 @@ Copa69 ขอขอบคุณที่ใช้บริการค่ะ....
 if (!is_null($events)) {
     $userMessage = strtolower($userMessage);
     if (!is_null($eventFollow)) {
-        $imageMain = 'https://www.pic2free.com/uploads/20200311/0f2a99163fd6712f73d04da793c78d13e13e6f7a.png';
+        $imageMain = 'https://www.google.com/';
         $replyData = new ImagemapMessageBuilder(
             $imageMain,
             'test',
