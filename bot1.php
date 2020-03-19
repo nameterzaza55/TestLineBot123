@@ -2183,7 +2183,7 @@ if (!is_null($events)) {
                     );
                 }                
                 else if ($userMessage == "สอบถาม" || $userMessage == "q" || $userMessage == "Q" || $userMessage == "ย้อนกลับQuestion") {
-                    $imageMapUrl = 'https://www.pic2free.com/uploads/20200311/57f1378aadbe36e2d659f634c71d9cb9cfebe0b1.png';
+                    $imageMapUrl = 'https://www.pic2free.com/uploads/20200311/57f1378aadbe36e2d659f634c71d9cb9cfebe0b1.png?_ignore=';
                     $replyData = new ImagemapMessageBuilder(
                         $imageMapUrl,
                         'test',
