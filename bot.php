@@ -2183,45 +2183,46 @@ if (!is_null($events)) {
                     );
                 }                
                 else if ($userMessage == "สอบถาม" || $userMessage == "q" || $userMessage == "Q" || $userMessage == "ย้อนกลับQuestion") {
-                    $imageMapUrl = 'https://ibb.co/y4XCf4J?_ignore=';
+                    $imageMapUrl = 'https://i.ibb.co/Z2VrL2C/images-4.png?_ignore=';
                     $replyData = new ImagemapMessageBuilder(
                         $imageMapUrl,
                         'test',
                         new BaseSizeBuilder(800, 1040),
                         array(
-                            new ImagemapMessageActionBuilder(
-                                'โปรโมชั่น',
-                                new AreaBuilder(7, 208, 509, 139)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'คำแนะนำ',
-                                new AreaBuilder(522, 208, 512, 135)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'กลุ่ม',
-                                new AreaBuilder(4, 350, 512, 134)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'ฝาก',
-                                new AreaBuilder(522, 349, 511, 137)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'สมาชิก',
-                                new AreaBuilder(5, 491, 511, 134)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'บัญชี',
-                                new AreaBuilder(521, 489, 514, 139)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'เว็บ',
-                                new AreaBuilder(7, 631, 510, 139)
-                            ),
-                            new ImagemapMessageActionBuilder(
-                                'ย้อนกลับMain',
-                                new AreaBuilder(524, 633, 509, 133)
-                            ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'โปรโมชั่น',
+                            //     new AreaBuilder(7, 208, 509, 139)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'คำแนะนำ',
+                            //     new AreaBuilder(522, 208, 512, 135)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'กลุ่ม',
+                            //     new AreaBuilder(4, 350, 512, 134)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'ฝาก',
+                            //     new AreaBuilder(522, 349, 511, 137)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'สมาชิก',
+                            //     new AreaBuilder(5, 491, 511, 134)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'บัญชี',
+                            //     new AreaBuilder(521, 489, 514, 139)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'เว็บ',
+                            //     new AreaBuilder(7, 631, 510, 139)
+                            // ),
+                            // new ImagemapMessageActionBuilder(
+                            //     'ย้อนกลับMain',
+                            //     new AreaBuilder(524, 633, 509, 133)
+                            // ),
                         )
+
                     );
                     //                     $textReplyMessage = new BubbleContainerBuilder(
                     //                         "ltr",
