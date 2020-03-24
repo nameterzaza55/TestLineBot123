@@ -2183,7 +2183,7 @@ if (!is_null($events)) {
                     );
                 }                
                 else if ($userMessage == "สอบถาม" || $userMessage == "q" || $userMessage == "Q" || $userMessage == "ย้อนกลับQuestion") {
-                    $imageMapUrl = 'https://ibb.co/y4XCf4J';
+                    $imageMapUrl = 'https://ibb.co/y4XCf4J?_ignore=';
                     $replyData = new ImagemapMessageBuilder(
                         $imageMapUrl,
                         'test',
