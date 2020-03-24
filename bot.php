@@ -2124,7 +2124,7 @@ Copa69 ขอขอบคุณที่ใช้บริการค่ะ....
 if (!is_null($events)) {
     $userMessage = strtolower($userMessage);
     if (!is_null($eventFollow)) {
-        $imageMain = 'https://www.google.com/';
+        $imageMain = 'https://www.pic2free.com/uploads/20200311/0f2a99163fd6712f73d04da793c78d13e13e6f7a.png';
         $replyData = new ImagemapMessageBuilder(
             $imageMain,
             'test',
@@ -2183,7 +2183,7 @@ if (!is_null($events)) {
                     );
                 }                
                 else if ($userMessage == "สอบถาม" || $userMessage == "q" || $userMessage == "Q" || $userMessage == "ย้อนกลับQuestion") {
-                    $imageMapUrl = 'https://www.pic2free.com/uploads/20200311/57f1378aadbe36e2d659f634c71d9cb9cfebe0b1.png';
+                    $imageMapUrl = 'https://ibb.co/y4XCf4J';
                     $replyData = new ImagemapMessageBuilder(
                         $imageMapUrl,
                         'test',
